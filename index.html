@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduwork Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style type="text/css" media="all">
+      .navbar-toggler {
+        border: none !important;
+      }
+      .navbar-toggler:focus{
+        border: none !important;
+        outline: none;
+      }
+      .navbar-nav .btn-login {
+        width: 80px;
+        border-radius: 25px;
+      }
+      .navbar-nav .nav-item {
+        margin-right: 25px;
+      }
+      .jumbotron{
+        position: relative;
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrF40WmsNjw2AGs0jUlkiij6YjJ1lUZQCK55WAu9n0UZ-3Ny07u2itaC40&s=10');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        width: 100%;
+        text-align: center;
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(6,102,153,0.9);
+        z-index: 0;
+      }
+      .text-jumbotron {
+        position: relative;
+        color: white;
+        z-index: 1;
+        padding: 75px 0;
+      }
+      
+      .btn-sign {
+        background-color: rgba(50,102,153,0.9);
+        border: 1px solid white;
+        border-radius: 10px;
+      }
+      
+      .text-jumbotron h1,h5,button {
+        padding: 15px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header navigasi -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid mx-md-5">
+        <a class="navbar-brand" href="#"><img src="https://eduwork.id/assets/favicon.png" alt="edu" style="width:100px;" /></a>
+        <button class="navbar-toggler" type="button" 
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Beranda</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Tentang</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Kelas
+             </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">QA Engineer</a>
+            <a class="dropdown-item" href="#">FullStack</a>
+          </div>
+        </li>
+            <li class="nav-item"><a class="nav-link btn btn-primary btn-login text-white" href="#">Daftar</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    
+    <!-- jumbotron -->
+    <div class="jumbotron py-5">
+      <div class="overlay"></div>
+      <div class="container py-5">
+       <div class="text-jumbotron">
+         <h1>Raih Profesi Idamanmu, kami bantu sampai diterima kerja</h1>
+         <h5>tanpa biaya pendaftaran !</h5>
+         <button class="btn btn-primary btn-sign" type="button">Daftar Sekarang</button>
+       </div>
+      </div>
+    </div>
+    
+<div class="container mt-3">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card m-2 border-0">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img class="card-img-top" src="https://img.freepik.com/free-vector/code-typing-concept-illustration_114360-2937.jpg?t=st=1709703881~exp=1709707481~hmac=9ab73660847a2c2306140ef1587db973622d0c0f86f061ae0f6f55a0476dcbac&w=740" alt="produk" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title  text-primary">Learn Coding 1</h5>
+              <p class="card-text">
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card m-2 border-0">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img class="card-img-top" src="https://img.freepik.com/free-vector/programming-concept-illustration_114360-1325.jpg?w=740&t=st=1709703937~exp=1709704537~hmac=934a706c14d13bd56dcb06c487cb77047ed9d3a7e41d45fa223c7b559ebd5844" alt="produk" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title  text-primary">Learn Coding 2</h5>
+              <p class="card-text">
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card m-2 border-0">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img class="card-img-top" src="https://img.freepik.com/free-vector/design-process-concept-illustration_114360-529.jpg?w=740&t=st=1709703982~exp=1709704582~hmac=b6c267cf0744b5524c9073e54fe5af2bd853312a6a24ff4e0b59af63881cc531" alt="produk" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title  text-primary">Learn Coding 3</h5>
+              <p class="card-text">
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Baris Kedua -->
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card m-2 border-0">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img class="card-img-top" src="https://img.freepik.com/free-vector/prototyping-process-concept-illustration_114360-2084.jpg?w=740&t=st=1709703968~exp=1709704568~hmac=b8938730befcfac8e8899f70b24c67bd5f3259c7b02c78c1a78dfbd92107f0c2" alt="produk" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title  text-primary">Learn Coding 4</h5>
+              <p class="card-text">
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card m-2 border-0">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img class="card-img-top" src="https://img.freepik.com/free-vector/visual-data-concept-illustration_114360-2192.jpg?w=740&t=st=1709703948~exp=1709704548~hmac=3a639c7939e2447d3dbecc5402f46d027154b315a72d23b3a00eb80acf551f60" alt="produk" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title  text-primary">Learn Coding 5</h5>
+              <p class="card-text">
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card m-2 border-0">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img class="card-img-top" src="https://img.freepik.com/free-vector/app-development-concept-illustration_114360-5164.jpg?w=740&t=st=1709703942~exp=1709704542~hmac=2eccc199ec7e36c5267fa68238b19e69a50cad9916b21898a5522d7351b669e4" alt="produk" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title  text-primary">Learn Coding 6</h5>
+              <p class="card-text">
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
